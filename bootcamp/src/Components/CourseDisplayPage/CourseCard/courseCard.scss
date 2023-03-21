@@ -1,0 +1,46 @@
+#courseCard {
+  margin-top: 40px;
+
+  .course-count {
+    font-family: "Open Sans";
+    color: #262626;
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .card-container {
+    .MuiChip-root {
+      position: relative;
+      height: 22px;
+      font-family: "Open Sans";
+      z-index: 1;
+      font-size: 11px;
+      top:140px ;
+      left: 10px;
+      color: #16807e;
+      background-color: #d2e4e4;
+      border-radius: 4px;
+    }
+    .course-name {
+      font-family: "Open Sans";
+      font-weight: 600;
+      font-size: 14px;
+      color: #101c36;
+    }
+    .instructor-name {
+      padding: 5px 0px 10px 0px;
+      font-family: "Open Sans";
+      font-size: 13px;
+      font-weight: 500;
+      color: #999999;
+    }
+    .assignment,
+    .time-period {
+      font-family: "Open Sans";
+      font-size: 13px;
+      font-weight: 500;
+      color: #999999;
+      padding: 5px 0px 10px 0px;
+    }
+  }
+}

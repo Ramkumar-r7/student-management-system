@@ -1,0 +1,98 @@
+#loginForm {
+  padding-top: 70px;
+
+  .MuiContainer-root {
+    padding: 30px, 50px, 10px, 50px;
+  }
+
+  .login-box-model {
+    height: 65vh;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px #00000010;
+    border-radius: 10px;
+    padding: 35px;
+
+    .form-header-text {
+      color: #1d366f;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .login-header {
+      text-align: center;
+      font-size: 14px;
+      color: #666666;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+    }
+
+    label {
+      font-family: "Open Sans";
+      font-weight: 500;
+      color: #666666;
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+    .MuiTextField-root {
+      font-family: "Open Sans", sans-serif;
+      width: 100%;
+      font-size: 12px;
+      border-color: #d8d8d8;
+      opacity: 0.7;
+    }
+
+    .MuiOutlinedInput-root {
+      height: 30px;
+      font-size: 12px;
+    }
+
+    .condition-subtext.MuiTypography-root {
+      font-size: 12px;
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      padding-top: 15px;
+    }
+
+    .login-btn.MuiButton-root {
+      margin-top: 15px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .MuiButton-root:disabled {
+      color: #ffffff;
+      background-color: #1d366f;
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    img {
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+    }
+
+    span {
+      color: #1d366f;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
+  .login-footer-text {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #999999;
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0px;
+
+    span {
+      color: #666666;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

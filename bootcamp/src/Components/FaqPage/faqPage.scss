@@ -1,0 +1,35 @@
+#faqPage {
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 88px;
+
+  .MuiBox-root {
+    border: 1px solid #d8d8d8;
+    border-radius: 5px 5px 1px 1px;
+  }
+
+  .accordian-container {
+    .accordian-header {
+      font-family: "open sans";
+      font-size: 13px;
+      font-weight: 600;
+      color: #212121;
+      text-align: justify;
+    }
+    .accordian-content {
+      font-family: "Open Sans";
+      font-size: 13px;
+      font-weight: 500;
+      color: #212121;
+      text-align: justify;
+      margin-left: 49px;
+      cursor: pointer;
+    }
+    .MuiAccordionSummary-root {
+      flex-direction: row-reverse;
+    }
+    .MuiIconButton-edgeEnd {
+      margin: 0px;
+    }
+  }
+}

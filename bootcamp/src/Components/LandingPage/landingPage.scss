@@ -1,0 +1,66 @@
+#landingPage {
+  .logos-container {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+
+    .cmrit-logo {
+      width: 150px;
+      height: 115px;
+    }
+
+    .e2e-logo {
+      width: 140px;
+      height: 70px;
+      margin-top: 40px;
+      margin-left: 90px;
+    }
+  }
+
+  .heading-container {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+
+    .heading-box-wrapper {
+      width: 720px;
+      height: 180px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 1px solid #eeeeee;
+      border-radius: 10px;
+
+      .heading-text-one {
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        color: #262626;
+        opacity: 0.6;
+        text-align: center;
+        margin-top: revert;
+      }
+
+      .heading-text-two {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 75px;
+        font-family: "Open Sans", sans-serif;
+        color: #262626;
+
+        opacity: 1;
+        text-align: center;
+      }
+    }
+  }
+
+  .button-container {
+    margin-top: 80px;
+    height: 34vh;
+    align-items: center;
+
+    .btn-stack,
+    .MuiButton-root {
+      width: 260px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+}
