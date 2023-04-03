@@ -1,7 +1,5 @@
 #faqPage {
-  padding-top: 100px;
-  padding-left: 80px;
-  padding-right: 88px;
+  padding: 80px 80px 100px 80px;
 
   .MuiBox-root {
     border: 1px solid #d8d8d8;
@@ -22,14 +20,29 @@
       font-weight: 500;
       color: #212121;
       text-align: justify;
-      margin-left: 49px;
+      margin-left: 47px;
       cursor: pointer;
     }
     .MuiAccordionSummary-root {
       flex-direction: row-reverse;
     }
-    .MuiIconButton-edgeEnd {
-      margin: 0px;
+    .MuiAccordion-root {
+      margin: 0 !important;
+      border: 1px solid #d8d8d8 !important;
+      background-color: #ffffff;
+    }
+    .MuiAccordionSummary-expandIconWrapper {
+      padding: 10px;
+      transition: transform 900ms cubic-bezier(0.2, 0, 0.2, 1) 0ms;
+    }
+    .MuiAccordionDetails-root {
+      padding: 0px 16px 16px;
+    }
+    .MuiAccordionSummary-content.Mui-expanded {
+      margin: 6px 0;
+    }
+    .Mui-expanded {
+      min-height: 20px;
     }
   }
 }

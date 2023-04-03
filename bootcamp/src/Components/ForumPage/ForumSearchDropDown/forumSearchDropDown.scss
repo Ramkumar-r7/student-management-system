@@ -1,0 +1,113 @@
+#forumSearchDropDown {
+  padding: 60px 80px 0px 80px;
+  .search-box {
+    .MuiInputBase-input {
+      padding: 10px;
+      height: 17px;
+      width: 30vmax;
+      font-family: "Open Sans";
+      font-size: 12px;
+      font-weight: 500;
+      color: #999999;
+    }
+
+    .MuiOutlinedInput-root {
+      border-radius: 10px;
+      border: 1px solid #c9c9c9;
+    }
+    .btn-ask,
+    .MuiButton-root {
+      width: 100px;
+      background-color: #262626 !important;
+    }
+
+    .course-dropdown {
+      padding: 0px 0px 0px 15px;
+      gap: 20px;
+      .course-label,
+      .MuiInputLabel-root {
+        color: #262626;
+        opacity: 0.5;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 10px;
+        margin: 12px 0px 0px 14px;
+      }
+      .MuiInputBase-input {
+        padding: 10px;
+        height: 17px;
+        width: 12vmax;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 500;
+        color: #262626;
+      }
+
+      .MuiOutlinedInput-root {
+        border-radius: 10px;
+        border: 1px solid #c9c9c9;
+      }
+    }
+  }
+}
+.dialog {
+  .MuiDialog-paper {
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  .dialog-wrapper {
+    .MuiDivider-root {
+      border: 1px solid red;
+    }
+    .MuiInputBase-input {
+      color: #999999;
+      font-family: "Open Sans";
+      font-weight: 500;
+      font-size: 12px;
+      width: 65vmax;
+    }
+
+    .MuiOutlinedInput-root {
+      padding: 0px !important;
+      margin: 0px !important;
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+    }
+    .question-header {
+      color: #666666;
+      font-family: "open Sans";
+      font-size: 12px;
+      font-weight: 600;
+      margin: 0px 0px 10px 0px;
+    }
+  }
+  .MuiInputBase-input {
+    padding: 7px;
+    width: 29vmax;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 500;
+    color: #999999;
+  }
+
+  .MuiOutlinedInput-root {
+    margin-bottom: 21vh;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid #c9c9c9;
+  }
+  .dropdown-helper {
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    color: #666666;
+  }
+  .dialog-title {
+    color: #252d41;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+  }
+}

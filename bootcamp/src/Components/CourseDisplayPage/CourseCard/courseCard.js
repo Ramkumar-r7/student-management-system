@@ -12,16 +12,18 @@ import cardImg from "../../../Assets/images/cardImage.png";
 import AssignmentIcon from "../../../Assets/images/AssignmentIcon.svg";
 import CoursePeriodIcon from "../../../Assets/images/CoursePeriodIcon.svg";
 import "./courseCard.scss";
-const CourseCard = () => {
+import { useNavigate } from "react-router-dom";
+
+const CourseCard = ({ isParam }) => {
+  const navigate = useNavigate();
+
   return (
     <div id="courseCard">
-      <span className="course-count">23 Courses</span>
       <Box className="card-container">
-        <Chip label="Java" />
+        {/* <Chip label="Java" /> */}
         <Card sx={{ maxWidth: 240 }}>
-          <CardActionArea>
+          <CardActionArea onClick={() => navigate("/details")}>
             <CardMedia component="img" height="150" image={cardImg} alt="img" />
-
             <CardContent>
               <Typography variant="h6" className="course-name" component="div">
                 Learn java programming :<br />

@@ -1,0 +1,94 @@
+#courseOverview {
+  .about-box {
+    padding: 35px 80px 50px 80px;
+    .about-paper,
+    .MuiPaper-root {
+      margin-bottom: 20px;
+      padding: 30px 20px 30px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 4px #21212124;
+      background-color: #ffffff;
+      .about-header {
+        margin: 0px;
+        padding-bottom: 15px;
+        color: #252d41;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .about-content {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 500;
+        color: #252d41;
+      }
+      ul,
+      ol,
+      li {
+        margin: 0px 0px 0px 7px !important;
+        padding: 0px !important;
+      }
+      .infoheader-stack {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 500;
+        color: #666666;
+        .date-author-head {
+          padding-right: 80px;
+        }
+      }
+      .info-stack {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 500;
+        color: #252d41;
+        padding-bottom: 30px;
+        .author-text {
+          padding-left: 120px;
+        }
+        .date-text {
+          padding-left: 81px;
+        }
+      }
+      .skill-head {
+        color: #252d41;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .chip {
+        color: #666666;
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 10px;
+        background-color: #ebf0f7;
+        border-radius: 4px;
+        opacity: 0.9;
+      }
+      .requirement-header,
+      .learn-header {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        color: #252d41;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .instructor-header {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        color: #252d41;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .author-name {
+        color: #212121;
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

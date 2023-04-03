@@ -1,21 +1,14 @@
 #courseCard {
-  margin-top: 40px;
-
-  .course-count {
-    font-family: "Open Sans";
-    color: #262626;
-    font-weight: 500;
-    font-size: 13px;
-  }
-
+  padding: 10px 0px 0px 0px;
   .card-container {
+    margin-top: 0px;
     .MuiChip-root {
       position: relative;
       height: 22px;
       font-family: "Open Sans";
       z-index: 1;
       font-size: 11px;
-      top:140px ;
+      top: 140px;
       left: 10px;
       color: #16807e;
       background-color: #d2e4e4;

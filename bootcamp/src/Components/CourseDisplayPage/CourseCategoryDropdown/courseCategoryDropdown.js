@@ -87,7 +87,12 @@ const CourseCategoryDropdown = () => {
         />
 
         <FormControl className="sortby-dropdown d-inline">
-          <InputLabel  className="sortby-select-label" shrink={true} size='small' id="my-select-label">
+          <InputLabel
+            className="sortby-select-label"
+            shrink={true}
+            size="small"
+            id="my-select-label"
+          >
             Sort By
           </InputLabel>
           <Select

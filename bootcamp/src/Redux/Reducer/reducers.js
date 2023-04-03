@@ -2,6 +2,7 @@ import { AUTH_USER } from "../Action/actions";
 
 const initialState = {
   auth: false,
+  guest: true,
 };
 
 export const reducer = (state = initialState, action) => {

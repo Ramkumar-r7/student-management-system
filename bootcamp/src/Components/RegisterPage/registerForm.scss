@@ -1,8 +1,8 @@
 #registerForm {
-  padding-top: 70px;
+  padding-top: 60px;
 
   .MuiContainer-root {
-    padding: 30px, 50px, 10px, 50px;
+    padding: 15px 50px 10px 50px;
   }
 
   .register-box-model {
@@ -41,7 +41,13 @@
       border-color: #d8d8d8;
       opacity: 0.7;
     }
-
+    .error-msg {
+      font-size: 10px;
+      font-family: "open Sans";
+      font-weight: 500;
+      color: red;
+      padding-left: 10px;
+    }
     .MuiOutlinedInput-root {
       height: 30px;
       font-size: 12px;
