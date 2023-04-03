@@ -11,21 +11,15 @@ import eyeLogoDefault from "../../../Assets/images/eyeLogoDefault.svg";
 import eyeLogoToggle from "../../../Assets/images/eyeLogoToggle.svg";
 import "./loginForm.scss";
 import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { AUTH_USER } from "../../../Redux/Action/actions";
 
 const LoginForm = () => {
   const [emailId, setEmailId] = useState("");
   const [password, setPassword] = useState("");
   const [passwordShow, setPasswordShow] = useState(true);
   const navigate = useNavigate();
-  const AuthenicatedUser = useSelector((state) => state.auth);
-  const dispatch = useDispatch();
 
   const handleLoginClick = () => {
-    localStorage.setItem("id", emailId);
-    localStorage.setItem("password", password);
-    dispatch({ type: AUTH_USER, payload: true });
+    console.log("sds");
   };
 
   return (
@@ -47,7 +41,7 @@ const LoginForm = () => {
             <label>Password</label>
             <div className="input-group">
               <TextField
-                type={passwordShow ? "text" : "password"}
+                type={passwordShow ? "password" : "text"}
                 placeholder="Enter 6 digit password"
                 onChange={({ target: { value } }) => setPassword(value)}
                 value={password}
@@ -55,7 +49,7 @@ const LoginForm = () => {
                   endAdornment: (
                     <InputAdornment position="end">
                       <img
-                        src={passwordShow ? eyeLogoToggle : eyeLogoDefault}
+                        src={passwordShow ? eyeLogoDefault : eyeLogoToggle}
                         alt="logo"
                         onClick={() => setPasswordShow(!passwordShow)}
                       />
@@ -88,7 +82,7 @@ const LoginForm = () => {
         </Box>
       </Container>
       <p className="login-footer-text">
-        Don't have account?{" "}
+        Don't have account?
         <span onClick={() => navigate("/register")}> Register </span>
       </p>
     </div>

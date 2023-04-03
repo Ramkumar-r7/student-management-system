@@ -33,7 +33,7 @@ const LandingPage = () => {
         >
           Guest/Not registered User
         </Button>
-        <Button className="btn-stack" variant="outlined">
+        <Button className="btn-stack" variant="outlined"  onClick={() => navigate("/login")}>
           Student module
         </Button>
         <Button className="btn-stack" variant="outlined">
