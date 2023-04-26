@@ -1,0 +1,26 @@
+#courseTabHeader {
+  .course-syllabus-box {
+    box-shadow: 0px 3px 6px #0000000f;
+    border-top: 1px solid rgba(112, 112, 112, 0.2);
+    .course-syllabus-container {
+      padding: 0px 80px 0px 80px;
+      .MuiTabs-indicator {
+        background-color: #262626;
+        height: 3px;
+      }
+      .tabs,
+      .MuiTab-root {
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 0.875rem;
+        color: #999999;
+      }
+      .Mui-selected {
+        font-family: "Open Sans";
+
+        font-weight: 500;
+        color: #262626;
+      }
+    }
+  }
+}

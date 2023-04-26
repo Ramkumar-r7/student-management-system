@@ -1,0 +1,232 @@
+#assignmentContent {
+  .assignment-box {
+    background-color: #f8f8f8;
+    .assignment-count-slider {
+      padding: 10px 80px 10px 80px;
+      display: flex;
+      justify-content: space-between;
+
+      .topic-heading {
+        display: flex;
+        align-items: center;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 0.75rem;
+        color: #212121;
+      }
+      .chip-wrap {
+        .course-progress-chip {
+          font-family: "Open Sans";
+          font-size: 0.625rem;
+          font-weight: 500;
+          color: #000000;
+          background: rgb(255, 179, 2, 0.2);
+          border-radius: 13px;
+          height: 60%;
+        }
+        .course-completed-chip {
+          font-family: "Open Sans";
+          font-size: 0.625rem;;
+          font-weight: 500;
+          color: #000000;
+          background: rgb(58, 162, 160, 0.2);
+          border-radius: 13px;
+          height: 60%;
+        }
+        .dot-chip {
+          color: #ffb302;
+          height: 50%;
+        }
+        .submitted-chip {
+          color: #3aa2a0;
+          height: 50%;
+        }
+      }
+    }
+    .arrow-btn {
+      .left-arrow {
+        height: 80%;
+        cursor: pointer;
+      }
+      .right-arrow {
+        height: 80%;
+        cursor: pointer;
+      }
+    }
+  }
+  .assignment-content-box {
+    padding: 0px 80px 0px 80px;
+
+    .topic-name {
+      font-size: 0.875rem;
+      font-family: "Open Sans";
+      font-weight: 700;
+      color: #212121;
+    }
+    .assignment-topic {
+      display: flex;
+      justify-content: space-between;
+      .assignment-name {
+        font-family: "Open Sans";
+        font-weight: 700;
+        color: #212121;
+       font-size: 1.25rem;
+      }
+      .submitted-indicator {
+        .submitted-btn {
+          padding: 10px;
+          text-align: center;
+          font-size: 0.875rem;
+          font-family: "Open Sans";
+          font-weight: 700;
+          color: #3aa2a0;
+          background-color: #d7ecec;
+          border-radius: 5px;
+        }
+        .submitted-date {
+          font-family: "Open Sans";
+          font-family: 500;
+          font-size: 0.625rem;;
+          color: #262626;
+          opacity: 0.5;
+          text-align: end;
+        }
+      }
+    }
+  }
+  .grade-box {
+    width: fit-content;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #0000000a;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    .grade-evaluating {
+      display: flex;
+      align-items: center;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 1rem;
+      opacity: 0.5;
+      color: #212121;
+    }
+    .passed-grade-box {
+      background-color: rgb(155, 83, 209, 0.2);
+      border-radius: 7px;
+      .passed-grade {
+        color: #9b53d1;
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-size: 1rem;
+      }
+    }
+  }
+  .content-box {
+    overflow: auto;
+    scroll-behavior: smooth;
+    height: calc(100vh - 15.625rem);
+
+    .topic-sub-heading {
+      font-family: "Open Sans";
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: #252d41;
+    }
+    .content {
+      font-family: "Open Sans";
+       font-size: 0.75rem;;
+      font-weight: 500;
+      color: #252d41;
+    }
+  }
+}
+.file-upload-dialog {
+  border-radius: 10px;
+  .dialog-title {
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212121;
+  }
+  .file-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #1d366f;
+    border-radius: 5px;
+    height: 30vh;
+    cursor: pointer;
+    .img-file {
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .file-uploader {
+      font-family: "SF Pro Display";
+      font-weight: 800;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+    .file-type {
+      font-family: "SF Pro Display";
+      font-size: 0.625rem;;
+      font-weight: 400;
+      color: #cccccc;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  .no-file {
+    font-family: "SF Pro Display";
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #cccccc;
+    text-align: center;
+  }
+  .uploaded-file {
+    padding: 5px;
+    box-shadow: 0px 2px 6px #00000014;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    .close-img {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    .file-img {
+      width: 20%;
+      height: 80%;
+    }
+    .file-name {
+      font-family: "SF Pro Display";
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #212121;
+    }
+    .file-size {
+      font-family: "SF Pro Display";
+       font-size: 0.75rem;;
+      font-weight: 400;
+      color: #212121;
+      opacity: 0.5;
+    }
+  }
+  .btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .submit-btn {
+      width: 45%;
+    }
+    .submit-btn:disabled {
+      color: #ffffff;
+      background-color: #1d366f;
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .cancel-btn {
+      width: 45%;
+      color: #000;
+      border: 1px solid #707070;
+    }
+  }
+}

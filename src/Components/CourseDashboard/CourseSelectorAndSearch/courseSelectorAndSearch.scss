@@ -1,0 +1,71 @@
+#CourseSelectorAndSearch {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px 45px 0px;
+
+  .course-selector-wrap {
+    .MuiSelect-select {
+      width: 5rem;
+      padding: 7px 25px 7px 15px;
+      font-size: 0.875rem;
+      color: #262626;
+      font-family: "Open Sans";
+      font-weight: 500;
+    }
+
+    .MuiSelect-icon {
+      color: #262626;
+      height: 20px;
+    }
+
+    .MuiOutlinedInput-root {
+      border: 1px solid #c9c9c9;
+      border-radius: 10px 0px 0px 10px;
+      background-color: #f6f6f6;
+    }
+  }
+  .search-bar {
+    .MuiInputBase-input {
+      margin-left: 2.5rem;
+      height: 17px;
+      width: 30vmax;
+      font-size: 0.75rem;
+      font-family: "Open Sans";
+      font-weight: 500;
+      color: #999999;
+      padding: 10px;
+    }
+    .MuiOutlinedInput-root {
+      border: 1px solid #c9c9c9;
+      border-left: none;
+      border-radius: 0px 10px 10px 0px;
+    }
+  }
+  .sortby-dropdown {
+    display: inline-block;
+
+    .sortby-select-label {
+      color: #262626;
+      font-family: "Open Sans";
+      font-weight: 500;
+      opacity: 0.5;
+      font-size: 0.7rem;
+      
+    }
+    .MuiSelect-select {
+      margin-top: 3px;
+      width: 7vw;
+      padding: 7px 25px 5px 15px;
+      font-size: 0.875rem;
+      color: #262626;
+      font-family: "Open Sans";
+      font-weight: 500;
+    }
+    .MuiOutlinedInput-root {
+      border: 1px solid #c9c9c9;
+      border-radius: 10px 10px 10px 10px;
+      background-color: #f6f6f6;
+      margin-left: 20px;
+    }
+  }
+}

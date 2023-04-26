@@ -1,0 +1,128 @@
+#forumQandA {
+  padding: 30px 80px 80px 80px;
+  .question-box {
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px 5px 1px 1px;
+    .que-details {
+      color: #999999;
+      font-family: "Open Sans";
+      font-weight: 500;
+       font-size: 0.75rem;;
+      padding-right: 15px;
+    }
+    .period-icon {
+      padding-right: 5px;
+    }
+    .tick-icon {
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    .question {
+      .color-box {
+        width: 55px;
+        height: 35px;
+        background-color: #eeeeee;
+        border-radius: 5px;
+      }
+      .question-text {
+        padding: 5px;
+        text-align: justify;
+        color: #212121;
+        font-family: "Open Sans";
+        font-weight: 700;
+            font-size: 0.875rem;
+      }
+    }
+
+    .question-chip {
+      color: #999999;
+      font-weight: 500;
+       font-size: 0.75rem;;
+      background-color: rgb(153, 153, 153, 0.2);
+      border-radius: 13px;
+      height: 20px;
+      padding: 5px;
+    }
+    .que-details-answered {
+      color: #262626;
+      font-family: "Open Sans";
+      font-weight: 600;
+       font-size: 0.75rem;;
+      padding-right: 15px;
+    }
+  }
+}
+
+.answered-dialog {
+  border-radius: 10px;
+  .dialog-title {
+    color: #252d41;
+    font-family: "Open Sans";
+    font-weight: 600;
+        font-size: 0.875rem;
+  }
+  .student-detail {
+    color: #999999;
+    font-family: "Open Sans";
+    font-weight: 500;
+     font-size: 0.75rem;;
+    padding-right: 15px;
+  }
+  .period-icon {
+    padding-right: 5px;
+  }
+  .student-question {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    text-align: justify;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 700;
+        font-size: 0.875rem;
+  }
+  .topic-chip {
+    color: #999999;
+    font-weight: 500;
+     font-size: 0.75rem;;
+    background-color: rgb(153, 153, 153, 0.2);
+    border-radius: 13px;
+    height: 20px;
+    padding: 5px;
+  }
+  .answer-header {
+    color: #212121;
+    font-family: "Open Sans";
+        font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+  }
+  .instructor-answer {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    text-align: justify;
+    color: #212121;
+    font-family: "Open Sans";
+    font-weight: 500;
+        font-size: 0.875rem;
+  }
+  .author-name {
+    color: #999999;
+    font-family: "Open Sans";
+    font-weight: 500;
+     font-size: 0.75rem;;
+    margin: 0px;
+  }
+  .instructor-chip {
+    color: #212121;
+    opacity: 0.5;
+    font-weight: 600;
+     font-size: 0.75rem;;
+    background-color: rgb(153, 153, 153,0.5);
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,28 @@
+#dashboard {
+  padding-top: 80px;
+  .dashboard-box {
+    padding-left: 100px !important;
+    border-bottom: 1px solid #eeeeee;
+    .mycourses-header {
+      font-family: "Open Sans";
+      font-weight: 700;
+      color: #262626;
+    }
+    .MuiTabs-indicator {
+      background-color: #262626;
+      color: #262626;
+    }
+    .dashboard-tab {
+      font-family: "Open Sans";
+      color: #262626;
+    }
+
+    .courseStatus-tab {
+      font-family: "Open Sans";
+      color: #999999;
+    }
+  }
+  .card-box {
+    padding: 0px 80px 80px 80px;
+  }
+}
